@@ -1,0 +1,92 @@
+Using the ssh command to do the port-forwarding
+
+The local port forwarding:
+
+remotehost:remoteport => localhost:localport
+
+ssh -L localhost:localport:remotehost:remoteport root@localhost
+
+
+how to use unrar:
+
+unrat t 1.rar
+
+
+when use the awk to extract the  info from a līne, you should use the '' rather than "":
+awk '{print $1}'
+
+
+
+The delegation graduates project
+
+where and when
+
+the main time point 
+
+csc support: the one round trip and living expenses;
+
+研究生项目 联合培养项目
+
+www.csc.edu,cn
+
+了解项目和政策信息
+the most important thing is the invitation of the target school:
+
+nanyang university
+ 
+English:
+visiting student
+
+American
+DS2019:
+F-1 J-1
+
+France:
+1. invitation sig
+2. the major plan (both sigs)
+3. introduction of the tutor
+4. language 
+
+condition of the invitation :
+1. the specific  letter paper
+2. unconditional offer
+
+
+
+
+
+display router tables in mac:
+
+netstat -rn
+
+
+add new route entry in mac:
+
+mac route命令同时访问内外网 
+sudo route -n add -net 192.168.0.0 -netmask 255.255.255.0 192.168.5.254 
+sudo route -n add -net 192.168.3.0 -netmask 255.255.255.0 192.168.5.254 
+sudo route -n add -net 192.168.2.0 -netmask 255.255.255.0 192.168.5.254
+
+Windows route命令同时访问内外网 
+route add -p 192.168.3.0 mask 255.255.255.0 192.168.5.254 
+route add -p 192.168.0.0 mask 255.255.255.0 192.168.5.254 
+route add -p 192.168.2.0 mask 255.255.255.0 192.168.5.254
+
+
+
+add new router table entry in windows:
+
+route add 8.8.8.0/24 192.168.1.1 metric 3 
+
+del router table entry in windows:
+
+route delete 8.8.8.0/24
+
+
+
+
+
+
+
+
+
