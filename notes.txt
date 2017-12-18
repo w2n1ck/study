@@ -85,8 +85,29 @@ route delete 8.8.8.0/24
 
 
 
+machine learning:
+
+personal project: the prediction of the crime
+
+the module of python to import
+
+1. pandas
+use to read and load the data from csv
 
 
 
+
+2. keras 
+the python library for the deep learning
+
+
+tensorflow theano cntk as backend.
+
+RNN: is the name for two kind of neural network, recurrent neural network, recursive neural network.
+
+RNN 将自身状态在神经网络中循环传递，解决了单纯神经网络因为无法处理递归，权重指数爆炸和梯度消失的问题。手写识别最早是RNN的结果。
+
+
+3, 
 
 
